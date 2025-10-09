@@ -1,56 +1,56 @@
+/* General Page Styling */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("images/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: #222;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light blue background */
+    /* Uncomment below to use an image background */
+    /* background-image: url('images/background.jpg'); */
+    /* background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat; */
+    color: #333;
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 20px;
-  text-align: center;
-  border-bottom: 3px solid #d32f2f;
-}
-
-h1, h2 {
-  color: #d32f2f;
+    text-align: center;
+    padding: 20px;
+    background-color: #0077cc;
+    color: white;
 }
 
 nav a {
-  margin: 0 10px;
-  color: #1976d2;
-  text-decoration: none;
-  font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin: 20px auto;
-  padding: 20px;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
 }
 
 footer {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  color: #555;
+    text-align: center;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    margin-top: 30px;
 }
