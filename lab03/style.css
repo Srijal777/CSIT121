@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#page-header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.blog-post {
+    margin: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
