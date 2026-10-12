@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8eef5;
+    background-image: linear-gradient(
+        rgba(232, 238, 245, 0.88),
+        rgba(232, 238, 245, 0.88)
+    ), url("images/car.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #222;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #243b55;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    background-color: white;
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #243b55;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #243b55;
+    color: white;
+    padding: 15px;
+}
